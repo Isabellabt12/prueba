@@ -1,0 +1,21 @@
+{
+  "name": "isamkup3",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000p\u0000r\u0000u\u0000e\u0000b\u0000a\u0000\r\u0000 \u0000",
+  "main": "archivos.js",
+  "homepage": "https://isabellabt12.github.io/prueba/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isabellabt12/prueba.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Isabellabt12/prueba/issues"
+  },
+  "homepage": "https://github.com/Isabellabt12/prueba#readme"
+}

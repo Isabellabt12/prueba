@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="registro.css">
+    <script src="https://kit.fontawesome.com/d4a8f44a54.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form  class="formulario">
+    <h1>Registrate aqui!</h1>
+    <div class="container">
+        <div class="input-container">
+            <i class="fa-solid fa-user icon"></i>
+            <input type="text" id="nombreUsuario"  placeholder="Nombre Completo">
+        </div>
+
+        <div class="input-container">
+            <i class="fa-solid fa-message icon"></i>
+            <input type="text" id="emailUsuario" placeholder="Correo electronico">
+        </div>
+
+        <div class="input-container">
+            <i class="fa-solid fa-key icon"></i>
+            <input type="password" id="passwordUsuario" placeholder="Contraseña">
+        </div>
+        <button type="button" onclick="crearUsuario()"  class="button">
+            Registrate
+        </button>
+            <p>Al registrarte, aceptas nuestros terminos y condiciones de uso y politica de privacidad.</p>
+        <p>Ya tienes cuenta ? <a class="link" href="login.html">Iniciar Seccion</a></p>
+    
+    </div>
+</form>
+<script src="js/app.js"></script>
+</body>
+</html>
